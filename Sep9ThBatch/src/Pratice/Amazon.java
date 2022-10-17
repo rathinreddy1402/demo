@@ -29,6 +29,7 @@ public class Amazon {
 			Property_File plib=new Property_File();
 		String URL = plib.getPropertyKeyValue("url2");
 		driver.get(URL);
+		System.out.println(URL);
 
 		Excel_File elib=new Excel_File();
 			String data = elib.getExcelData("ActiTime", 0, 0);
