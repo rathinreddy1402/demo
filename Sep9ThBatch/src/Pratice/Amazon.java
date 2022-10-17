@@ -36,7 +36,7 @@ public class Amazon {
     WebElement search = driver.findElement(By.xpath("//input[@type='text']"));
 			search.sendKeys(data);
 			search.click();
-			
+			driver.close();
 			
 			
 			
